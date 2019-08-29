@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Service", "01 Service", "{6C295613-C877-446B-B986-AA59EB11F423}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Domain", "03 Domain", "{26B716D6-2B11-4CD4-937D-AD905619B1AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Infrastructure", "04 Infrastructure", "{47521A54-339D-4852-B65E-2D5144F6CE9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Application", "02 Application", "{6B51D361-A316-49C2-BA2F-B97F1DC5F608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.01 Data", "04.01 Data", "{EC30EAD3-E148-4E21-9174-0DE8726E811F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.02 CrossCutting", "04.02 CrossCutting", "{5B53B6C0-E1F3-4996-8ED8-0C74C92D7C37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeBroker.Services.Api", "HomeBroker.Services.Api\HomeBroker.Services.Api.csproj", "{D7F179E1-2C57-4C68-9A5B-059E1A578FD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeBroker.Application", "HomeBroker.Application\HomeBroker.Application.csproj", "{85C61F0C-12EB-4DF4-92C8-13D2D79EC37D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeBroker.Domain", "HomeBroker.Domain\HomeBroker.Domain.csproj", "{FAC4CE38-2E82-4E1A-BB4C-1E2D6169B3AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeBroker.Domain.Core", "HomeBroker.Domain.Core\HomeBroker.Domain.Core.csproj", "{7BA830A8-3BD0-478A-8E46-85B494F2C956}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeBroker.Infrastructure.Data", "HomeBroker.Infrastructure.Data\HomeBroker.Infrastructure.Data.csproj", "{6C840478-2462-4A75-9298-7FE874920673}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeBroker.Infrastructure.CrossCutting.IoC", "HomeBroker.Infrastructure.CrossCutting.IoC\HomeBroker.Infrastructure.CrossCutting.IoC.csproj", "{66CC02B0-B785-4353-8394-A5B798439D71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeBroker.Infrastructure.CrossCutting.Helpers", "HomeBroker.Infrastructure.CrossCutting.Helpers\HomeBroker.Infrastructure.CrossCutting.Helpers.csproj", "{9ADE65FE-FB6A-41C2-AA06-E3C57B16578D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F179E1-2C57-4C68-9A5B-059E1A578FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F179E1-2C57-4C68-9A5B-059E1A578FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F179E1-2C57-4C68-9A5B-059E1A578FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F179E1-2C57-4C68-9A5B-059E1A578FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C61F0C-12EB-4DF4-92C8-13D2D79EC37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C61F0C-12EB-4DF4-92C8-13D2D79EC37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C61F0C-12EB-4DF4-92C8-13D2D79EC37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C61F0C-12EB-4DF4-92C8-13D2D79EC37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC4CE38-2E82-4E1A-BB4C-1E2D6169B3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC4CE38-2E82-4E1A-BB4C-1E2D6169B3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC4CE38-2E82-4E1A-BB4C-1E2D6169B3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC4CE38-2E82-4E1A-BB4C-1E2D6169B3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA830A8-3BD0-478A-8E46-85B494F2C956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA830A8-3BD0-478A-8E46-85B494F2C956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA830A8-3BD0-478A-8E46-85B494F2C956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA830A8-3BD0-478A-8E46-85B494F2C956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C840478-2462-4A75-9298-7FE874920673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C840478-2462-4A75-9298-7FE874920673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C840478-2462-4A75-9298-7FE874920673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C840478-2462-4A75-9298-7FE874920673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CC02B0-B785-4353-8394-A5B798439D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CC02B0-B785-4353-8394-A5B798439D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CC02B0-B785-4353-8394-A5B798439D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CC02B0-B785-4353-8394-A5B798439D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADE65FE-FB6A-41C2-AA06-E3C57B16578D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADE65FE-FB6A-41C2-AA06-E3C57B16578D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADE65FE-FB6A-41C2-AA06-E3C57B16578D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADE65FE-FB6A-41C2-AA06-E3C57B16578D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC30EAD3-E148-4E21-9174-0DE8726E811F} = {47521A54-339D-4852-B65E-2D5144F6CE9D}
+		{5B53B6C0-E1F3-4996-8ED8-0C74C92D7C37} = {47521A54-339D-4852-B65E-2D5144F6CE9D}
+		{D7F179E1-2C57-4C68-9A5B-059E1A578FD4} = {6C295613-C877-446B-B986-AA59EB11F423}
+		{85C61F0C-12EB-4DF4-92C8-13D2D79EC37D} = {6B51D361-A316-49C2-BA2F-B97F1DC5F608}
+		{FAC4CE38-2E82-4E1A-BB4C-1E2D6169B3AE} = {26B716D6-2B11-4CD4-937D-AD905619B1AD}
+		{7BA830A8-3BD0-478A-8E46-85B494F2C956} = {26B716D6-2B11-4CD4-937D-AD905619B1AD}
+		{6C840478-2462-4A75-9298-7FE874920673} = {EC30EAD3-E148-4E21-9174-0DE8726E811F}
+		{66CC02B0-B785-4353-8394-A5B798439D71} = {5B53B6C0-E1F3-4996-8ED8-0C74C92D7C37}
+		{9ADE65FE-FB6A-41C2-AA06-E3C57B16578D} = {5B53B6C0-E1F3-4996-8ED8-0C74C92D7C37}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F963E4AB-0F91-4E53-A769-928E5A6BA485}
+	EndGlobalSection
+EndGlobal

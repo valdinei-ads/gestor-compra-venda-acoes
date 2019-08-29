@@ -1,0 +1,46 @@
+<div class="mt-5 col-md-12">
+
+  <div class="form-group">
+    <a routerLink='create' class="btn btn-primary">Novo</a>
+  </div>
+  
+  <div class="card">
+  
+    <div class="card-header">
+      <h6>Clientes</h6>
+    </div>
+  
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-12 text-center">
+        </div>
+      </div>
+  
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Tipo de Pessoa</th>
+            <th scope="col">CPF/CNPJ</th>
+            <th scope="col">Acões</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of clientes">
+            <td>{{item.nome}}</td>
+            <td>{{item.tipoPessoa}}</td>
+            <td>{{item.cpfCnpj}}</td>
+            <td>
+              <a class="btn btn-sm btn-info text-white" [routerLink]="['/cliente/edit', item.idCliente]" title="Editar"><i
+                  class="fa fa-pencil"></i></a>
+              <a class="btn btn-sm btn-primary text-white ml-1" [routerLink]="['/cliente/details', item.idCliente]"
+                title="Visualizar"><i class="fa fa-eye"></i></a>
+              <a class="btn btn-sm btn-danger text-white ml-1" (click)="delete(item.idCliente)" title="Excluir"><i
+                  class="fa fa-trash"></i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

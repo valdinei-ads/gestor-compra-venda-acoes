@@ -1,0 +1,46 @@
+<div class="col-md-6">
+
+    <input type="button" class="btn btn-danger" (click)="Back()" value="Cancelar">&nbsp;
+    <input type="submit" class="btn btn-success" [routerLink]="['/cliente/edit', cliente.idCliente]" value="Editar" />
+
+    <div class="card mt-3">
+        <div class="card-header">
+            <h5>Detalhes - Cliente</h5>
+        </div>
+        <div class="card-body">
+            <input type="hidden" value="{{ cliente.idCliente }}" />
+
+            <div class="row">
+                <div class="col-md-12">
+                    <label class="control-label">Nome</label>
+                    <span class="d-block form-control">{{ cliente.nome }}</span>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md">
+                    <label class="control-label">Tipo de Pessoa</label>
+                    <span class="d-block form-control" *ngIf="cliente.tipoPessoa == 'F'">Pessoa Fisica</span>
+                    <span class="d-block form-control" *ngIf="cliente.tipoPessoa == 'J'">Pessoa Juridica</span>
+                </div>
+
+                <div class="col-md">
+                    <div class="form-group">
+                        <label class="control-label" *ngIf="cliente.tipoPessoa == 'F'">CPF</label>
+                        <label class="control-label" *ngIf="cliente.tipoPessoa == 'J'">CNPJ</label>
+                        <span class="d-block form-control">{{ cliente.cpfCnpj }}</span>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="form-group">
+                        <label class="control-label">Data de Nascimento</label>
+                        <span class="d-block form-control">{{ cliente.dataNascimento | date: 'dd/MM/yyyy' }}</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

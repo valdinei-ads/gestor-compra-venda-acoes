@@ -1,0 +1,9 @@
+C:\Users\valmeida\source\repos\ProvaHomeBroker\HomeBroker.Domain.Core\bin\Debug\netcoreapp2.2\HomeBroker.Domain.Core.deps.json
+C:\Users\valmeida\source\repos\ProvaHomeBroker\HomeBroker.Domain.Core\bin\Debug\netcoreapp2.2\HomeBroker.Domain.Core.dll
+C:\Users\valmeida\source\repos\ProvaHomeBroker\HomeBroker.Domain.Core\bin\Debug\netcoreapp2.2\HomeBroker.Domain.Core.pdb
+C:\Users\valmeida\source\repos\ProvaHomeBroker\HomeBroker.Domain.Core\obj\Debug\netcoreapp2.2\HomeBroker.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\valmeida\source\repos\ProvaHomeBroker\HomeBroker.Domain.Core\obj\Debug\netcoreapp2.2\HomeBroker.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\valmeida\source\repos\ProvaHomeBroker\HomeBroker.Domain.Core\obj\Debug\netcoreapp2.2\HomeBroker.Domain.Core.AssemblyInfo.cs
+C:\Users\valmeida\source\repos\ProvaHomeBroker\HomeBroker.Domain.Core\obj\Debug\netcoreapp2.2\HomeBroker.Domain.Core.dll
+C:\Users\valmeida\source\repos\ProvaHomeBroker\HomeBroker.Domain.Core\obj\Debug\netcoreapp2.2\HomeBroker.Domain.Core.pdb
+C:\Users\valmeida\Source\repos\ProvaHomeBroker\HomeBroker.Domain.Core\obj\Debug\netcoreapp2.2\HomeBroker.Domain.Core.csprojAssemblyReference.cache

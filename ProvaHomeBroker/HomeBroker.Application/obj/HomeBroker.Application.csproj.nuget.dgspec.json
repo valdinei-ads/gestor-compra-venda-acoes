@@ -1,0 +1,332 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Application\\HomeBroker.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Application\\HomeBroker.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Application\\HomeBroker.Application.csproj",
+        "projectName": "HomeBroker.Application",
+        "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Application\\HomeBroker.Application.csproj",
+        "packagesPath": "C:\\Users\\valmeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\valmeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj": {
+                "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj"
+              },
+              "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain.Core\\HomeBroker.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain.Core\\HomeBroker.Domain.Core.csproj",
+        "projectName": "HomeBroker.Domain.Core",
+        "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain.Core\\HomeBroker.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\valmeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\valmeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.jQuery.Unobtrusive.Validation": {
+              "target": "Package",
+              "version": "[3.2.11, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj",
+        "projectName": "HomeBroker.Domain",
+        "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj",
+        "packagesPath": "C:\\Users\\valmeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\valmeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain.Core\\HomeBroker.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain.Core\\HomeBroker.Domain.Core.csproj"
+              },
+              "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.CrossCutting.Helpers\\HomeBroker.Infrastructure.CrossCutting.Helpers.csproj": {
+                "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.CrossCutting.Helpers\\HomeBroker.Infrastructure.CrossCutting.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.CrossCutting.Helpers\\HomeBroker.Infrastructure.CrossCutting.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.CrossCutting.Helpers\\HomeBroker.Infrastructure.CrossCutting.Helpers.csproj",
+        "projectName": "HomeBroker.Infrastructure.CrossCutting.Helpers",
+        "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.CrossCutting.Helpers\\HomeBroker.Infrastructure.CrossCutting.Helpers.csproj",
+        "packagesPath": "C:\\Users\\valmeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.CrossCutting.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\valmeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj",
+        "projectName": "HomeBroker.Infrastructure.Data",
+        "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\valmeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\valmeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj": {
+                "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

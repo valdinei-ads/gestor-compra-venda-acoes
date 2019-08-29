@@ -1,0 +1,34 @@
+<div class="col-md-6">
+
+    <input type="button" class="btn btn-danger" [routerLink]="['/cotacao']" value="Cancelar" />&nbsp;
+    <input type="submit" class="btn btn-success" [routerLink]="['/cotacao/edit', cotacao.idCotacaoAcao]" value="Editar" />
+
+    <div class="card mt-3">
+        <div class="card-header">
+            <h5>Detalhes - Cotação</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+
+                <input type="hidden"  value="{{ cotacao.idCodigoAcao }}"/>
+
+                <div class="col-md">
+                    <label for="codigoAcao" class="control-label">Código da Ação</label>
+                    <span class="d-block form-control">{{ cotacao.codigoAcao }}</span>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="dataCotacao" class="control-label">Data da Cotação</label>
+                        <span class="d-block  form-control">{{ cotacao.dataCotacao | date: 'dd/MM/yyyy'  }}</span>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="valorCotacao" class="control-label">Valor da Cotação</label>
+                        <span class="d-block  form-control">R$ {{ cotacao.valorCotacao | number:'1.2-2' }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

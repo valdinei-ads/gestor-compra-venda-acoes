@@ -1,0 +1,53 @@
+<div class="mt-5 col-md-6">
+  <form class="form-horizontal" [formGroup]="formulario" (ngSubmit)="onSubmit()">
+    <div class="card">
+      <div class="card-header">
+        <h5>Cadastro - Clientes</h5>
+      </div>
+      <div class="card-body">
+
+        <div class="row">
+          <div class="col-md">
+            <div class="form-group">
+              <label for="nome" class="control-label">Nome</label>
+              <input id="nome" formControlName="nome" class="form-control" type="text" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="tipoPessoa" class="control-label">Tipo Pessoa</label>
+              <select id="tipoPessoa" formControlName="tipoPessoa" class="form-control">
+                <option value="" selected></option>
+                <option value="F">Pessoa Fisica</option>
+                <option value="J">Pessoa Juridica</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md-3" *ngIf="formulario.value.tipoPessoa == 'F' || formulario.value.tipoPessoa == 'J'">
+            <div class="form-group">
+              <label for="cpf" class="control-label" *ngIf="formulario.value.tipoPessoa == 'F'">CPF</label>
+              <label for="cpf" class="control-label" *ngIf="formulario.value.tipoPessoa == 'J'">CNPJ</label>
+              <input id="cpfCnpj" formControlName="cpfCnpj" class="form-control" type="text" mask="999.999.999-99" />
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="dataNascimento" class="control-label">Data de Nascimento</label>
+              <input id="dataNascimento" formControlName="dataNascimento" class="form-control" type="date" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="card-footer">
+        <input type="button" class="btn btn-danger" (click)="Back()" value="Cancelar">&nbsp;
+        <input type="submit" class="btn btn-success" value="Salvar">
+      </div>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,54 @@
+<div class="mt-5 col-md-6">
+  <form class="form-horizontal" [formGroup]="formulario" (ngSubmit)="onSubmit()">
+    <div class="card">
+      <div class="card-header">
+        <h5>Edição - Cliente</h5>
+      </div>
+      <div class="card-body">
+
+          <input type="hidden" formControlName="idCliente" />
+
+          <div class="row">
+            <div class="col-md">
+              <div class="form-group">
+                <label for="nome" class="control-label">Nome</label>
+                <input id="nome" formControlName="nome" class="form-control" type="text" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="form-group">
+                <label for="tipoPessoa" class="control-label">Tipo Pessoa</label>
+                <select id="tipoPessoa" formControlName="tipoPessoa" class="form-control"
+                  [(ngModel)]="tipoPessoaSelecionada">
+                  <option *ngFor="let item of tiposPessoa" value="{{item.value}}">{{item.text}}</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-md-3" *ngIf="formulario.value.tipoPessoa == 'F' || formulario.value.tipoPessoa == 'J'">
+              <div class="form-group">
+                <label for="cpf" class="control-label" *ngIf="formulario.value.tipoPessoa == 'F'">CPF</label>
+                <label for="cpf" class="control-label" *ngIf="formulario.value.tipoPessoa == 'J'">CNPJ</label>
+                <input id="cpfCnpj" formControlName="cpfCnpj" class="form-control" type="text" />
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="form-group">
+                <label for="dataNascimento" class="control-label">Data de Nascimento</label>
+                <input id="dataNascimento" formControlName="dataNascimento" class="form-control" type="text" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <input type="button" class="btn btn-danger" (click)="Back()" value="Cancelar">&nbsp;
+          <input type="submit" class="btn btn-success" value="Salvar">
+        </div>
+    </div>
+  </form>
+</div>

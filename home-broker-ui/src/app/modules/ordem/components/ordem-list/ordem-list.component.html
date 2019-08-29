@@ -1,0 +1,56 @@
+<div class="col-md-12">
+    <div class="form-group">
+        <a routerLink='create' class="btn btn-primary">Novo</a>
+    </div>
+
+    <div class="card">
+
+        <div class="card-header">
+            <h6>Ordens</h6>
+        </div>
+
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Ação</th>
+                            <th scope="col">Cliente</th>
+                            <th scope="col">Tipo</th>
+                            <th scope="col">Data da Ordem</th>
+                            <th scope="col">Data da Compra</th>
+                            <th scope="col">Quantidade de Ações</th>
+                            <th scope="col">Valor da Ordem</th>
+                            <th scope="col">Taxa de Corretagem</th>
+                            <th scope="col">IR</th>
+                            <th scope="col">Acões</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of ordens">
+                            <td>{{ item.codigoAcao }}</td>
+                            <td>{{ item.cliente.nome }}</td>
+                            <td>{{ item.tipoOrdem }}</td>
+                            <td>{{ item.dataOrdem  | date: 'dd/MM/yyyy' }}</td>
+                            <td>{{ item.dataCompra | date: 'dd/MM/yyyy' }}</td>
+                            <td>{{ item.quantidadeAcoes }}</td>
+                            <td>R$ {{ item.valorOrdem | number:'1.2-2' }}</td>
+                            <td>R$ {{ item.taxaCorretagem | number: '1.2-2' }}</td>
+                            <td>R$ {{ item.ir | number: '1.2-2' }}</td>
+                            <td>
+                                <a class="btn btn-sm btn-primary text-white ml-1"
+                                    [routerLink]="['/ordem/details', item.idOrdem]" title="Visualizar"><i
+                                        class="fa fa-eye"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

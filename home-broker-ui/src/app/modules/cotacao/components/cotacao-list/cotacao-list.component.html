@@ -1,0 +1,45 @@
+<div class="mt-5 col-md-12">
+    <div class="form-group">
+        <a routerLink='create' class="btn btn-primary">Novo</a>
+    </div>
+
+    <div class="card">
+
+        <div class="card-header">
+            <h6>Cotações</h6>
+        </div>
+
+        <div class="card-body">
+
+            <table class="table  table-striped mt-3">
+                <thead>
+                    <tr>
+                        <th scope="col">Código da Ação</th>
+                        <th scope="col">Data da Cotação</th>
+                        <th scope="col">Valor da Cotação</th>
+                        <th scope="col">Acões</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of cotacoes">
+                        <td>{{item.codigoAcao }}</td>
+                        <td>{{item.dataCotacao | date: 'dd/MM/yyyy' }}</td>
+                        <td>R$ {{item.valorCotacao | number:'1.2-2' }}</td>
+                        <td>
+                            <a class="btn btn-sm btn-info text-white"
+                                [routerLink]="['/cotacao/edit', item.idCotacaoAcao]" title="Editar"><i
+                                    class="fa fa-pencil"></i></a>
+                            <a class="btn btn-sm btn-primary text-white ml-1"
+                                [routerLink]="['/cotacao/details', item.idCotacaoAcao]" title="Visualizar"><i
+                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-sm btn-danger text-white ml-1" (click)="delete(item.idCotacaoAcao)"
+                                title="Excluir"><i class="fa fa-trash"></i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+</div>

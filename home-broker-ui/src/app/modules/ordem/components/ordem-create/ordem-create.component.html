@@ -1,0 +1,68 @@
+<div class="col-md-6">
+  <form class="form-horizontal" [formGroup]="formulario" (ngSubmit)="onSubmit()">
+    <div class="card mt-5">
+      <div class="card-header">
+        <H5>Cadastro - Ordem</H5>
+      </div>
+      <div class="card-body">
+
+        <div class="row">
+          <div class="col-md-4">
+            <label for="codigoAcao" class="control-label">Código da Ação</label>
+            <input id="codigoAcao" class="form-control" formControlName="codigoAcao" type="text" />
+          </div>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="tipoOrdem" class="control-label">Tipo da Ordem</label>
+              <select id="tipoOrdem" class="form-control" formControlName="tipoOrdem">
+                <option value="" selected></option>
+                <option value="C">Compra</option>
+                <option value="V">Venda</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="dataOrdem" class="control-label">Data da Ordem</label>
+              <input id="dataOrdem" class="form-control" type="date" formControlName="dataOrdem" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md">
+            <div class="form-group">
+              <label for="idCliente" class="control-label">Cliente</label>
+              <select id="idCliente" class="form-control" formControlName="idCliente">
+                <option *ngFor="let item of clientes" value="{{ item.idCliente }}">{{ item.nome }}</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="quantidadeAcoes" class="control-label">Quantidade de Ações</label>
+              <input id="quantidadeAcoes" class="form-control" formControlName="quantidadeAcoes" type="number" />
+            </div>
+          </div>
+
+          <div class="col-md-4" *ngIf="formulario.value.tipoOrdem == 'V'">
+            <div class="form-group">
+              <label for="dataCompra" class="control-label">Data da Compra</label>
+              <input id="dataCompra" class="form-control" formControlName="dataCompra" type="date" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="card-footer">
+        <input type="button" class="btn btn-danger" (click)="Back()" value="Cancelar"/>&nbsp;
+        <input type="submit" class="btn btn-success" value="Salvar">
+      </div>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,33 @@
+<div class="col-md-6">
+    <form class="form-horizontal" [formGroup]="formulario" (ngSubmit)="onSubmit()">
+        <div class="card mt-5">
+            <div class="card-header">
+                <H5>Cadastro - Cotações</H5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md">
+                        <label for="codigoAcao" class="control-label">Código da Ação</label>
+                        <input id="codigoAcao" class="form-control" formControlName="codigoAcao" type="text" />
+                    </div>
+                    <div class="col-md">
+                        <div class="form-group">
+                            <label for="dataCotacao" class="control-label">Data da Cotação</label>
+                            <input id="dataCotacao" class="form-control" formControlName="dataCotacao" type="date" />
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-group">
+                            <label for="valorCotacao" class="control-label">Valor da Cotação</label>
+                            <input id="valorCotacao" class="form-control" type="text" formControlName="valorCotacao" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <input type="button" class="btn btn-danger" (click)="Back()" value="Cancelar">&nbsp;
+                <input type="submit" class="btn btn-success" value="Salvar" />
+            </div>
+        </div>
+    </form>
+</div>
