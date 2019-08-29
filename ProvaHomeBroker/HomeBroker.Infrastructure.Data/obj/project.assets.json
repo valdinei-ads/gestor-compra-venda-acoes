@@ -4425,11 +4425,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj",
+      "projectUniqueName": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj",
       "projectName": "HomeBroker.Infrastructure.Data",
-      "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj",
+      "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj",
       "packagesPath": "C:\\Users\\valmeida\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\obj\\",
+      "outputPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4448,8 +4448,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj": {
-              "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj"
+            "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj": {
+              "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj"
             }
           }
         }

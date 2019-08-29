@@ -3,3 +3,6 @@
 @import '~font-awesome/css/font-awesome';
 @import '../node_modules/ngx-toastr/toastr.css';
 
+a { 
+    cursor: pointer;
+}

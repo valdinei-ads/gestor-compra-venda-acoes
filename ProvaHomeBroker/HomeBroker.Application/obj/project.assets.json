@@ -4456,11 +4456,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Application\\HomeBroker.Application.csproj",
+      "projectUniqueName": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Application\\HomeBroker.Application.csproj",
       "projectName": "HomeBroker.Application",
-      "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Application\\HomeBroker.Application.csproj",
+      "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Application\\HomeBroker.Application.csproj",
       "packagesPath": "C:\\Users\\valmeida\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Application\\obj\\",
+      "outputPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4479,11 +4479,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj": {
-              "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj"
+            "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj": {
+              "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Domain\\HomeBroker.Domain.csproj"
             },
-            "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj": {
-              "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\BackEnd\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj"
+            "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj": {
+              "projectPath": "C:\\Users\\valmeida\\Documents\\GitHub\\gestor-compra-venda-acoes\\ProvaHomeBroker\\HomeBroker.Infrastructure.Data\\HomeBroker.Infrastructure.Data.csproj"
             }
           }
         }
